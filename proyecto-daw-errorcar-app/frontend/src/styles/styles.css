@@ -1,0 +1,89 @@
+:root {
+  --color-bg: #F2F2F2;
+  --color-bg-card: #FAFAFA;
+  --color-text: #111111;
+  --color-border: #DADADA;
+}
+
+body {
+  background-color: var(--color-bg) !important;
+  color: var(--color-text) !important;
+}
+
+.bg-white {
+  background-color: var(--color-bg) !important;
+}
+
+.card,
+.list-group-item,
+.modal-content {
+  background-color: var(--color-bg-card) !important;
+  color: var(--color-text);
+}
+
+.text-dark {
+  color: var(--color-text) !important;
+}
+
+.bg-dark {
+  background-color: var(--color-text) !important;
+  color: var(--color-bg) !important;
+}
+
+.btn-dark,
+.btn-primary,
+.btn-secondary {
+  background-color: var(--color-text) !important;
+  color: var(--color-bg) !important;
+  border: none !important;
+}
+
+.btn-dark:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #2A2A2A !important;
+}
+
+input,
+textarea,
+select {
+  background-color: #F7F7F7 !important;
+  color: var(--color-text) !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+.form-select:focus {
+  border-color: #111111 !important;
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.2) !important;
+  outline: none !important;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #111111 !important;
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.2) !important;
+  outline: none !important;
+}
+
+.btn-outline-primary {
+  color: #111111 !important;
+  border: 1px solid #111111 !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #111111 !important;
+  color: #F2F2F2 !important;
+}
+
+.logo-home {
+  width: 400px;
+}
+
+.logo-header {
+  width: 100px;
+}
+
+.chatgpt-logo {
+  width: 130px;
+}
